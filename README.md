@@ -9,7 +9,14 @@ Latest node (8.x) with nodemon preinstalled!
 ### Run the Docker image from Docker hub
 ``docker run -p 3000:3000 korius/node-nodemon``
 
-### Build and run locally
+### Build and run locally with docker-compose
+```
+git clone git@github.com:dennisMeeQ/node-nodemon.git
+cd node-nodemon
+docker-compose up --build
+```
+
+### Build and run locally with docker
 ```
 git clone git@github.com:dennisMeeQ/node-nodemon.git
 cd node-nodemon
